@@ -89,7 +89,7 @@ public class ClientGUI extends JFrame {
 		String newNumberOfObjects = parametersPanel.getNumberOfObjects();
 		
 		//Updates parameters in Client
-		client.setServerIP(Integer.parseInt(newServerIP));
+		client.setServerIP(newServerIP);
 		client.setPort(Integer.parseInt(newPort));
 		client.setNumberOfObjects(Integer.parseInt(newNumberOfObjects));
 		
